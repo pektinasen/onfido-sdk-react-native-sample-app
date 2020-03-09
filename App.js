@@ -21,7 +21,7 @@ export default class App extends Component<{}> {
       title: "Welcome to Onfido SDK!",
       subtitle: "To get started, press \"Launch\""
     }
-    this.token = "YOUR_TOKEN"
+    this.token = "api_sandbox.my.supersecret-token"
   }
 
   setTextContent(titleContent, subtitleContent) {
